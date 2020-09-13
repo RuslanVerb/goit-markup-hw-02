@@ -4,10 +4,11 @@
     --main-font: "Roboto", sans-serif;
     --secondary-font: "Raleway", sans-serif;
     --primary-text-color: #757575;
-    --title-text-color: #212121;
+    --secondary-text-color: #212121;
+    --title-text-color: #FFFFFF;
     --accent-color: #2196F3;
-    --background-color: #2F303A;
-    --white-text-color: #FFFFFF;
+    --bg-color: #2F303A;
+    
 
 }
 body {
@@ -21,8 +22,157 @@ ul{
 a{
     text-decoration: none;
 
-    /*-----H
+    /*-----START HEADER-------*/
 }
 .logo{
-color: blue;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,20;
+    letter-spacing: 0.03em;
+    color: #000000;
+    
+}
+.logo-web{
+    color: var(--accent-color);
+}
+.navigation-list-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,15;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus{
+color: var(--accent-color); 
+}
+
+.header-tel-link,
+.header-mail-link{
+    font-weight: 500;
+font-size: 14px;
+line-height: 1,15;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+.header-tel-link:hover,
+.header-tel-link:focus,
+.header-mail-link:hover,
+.header-mail-link:focus {
+color: var(--accent-color);
+}
+
+/*------END HEADER--------*/
+
+/*--------START HERO----------*/
+.hero{
+    background-color: var(--bg-color);
+}
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1,37;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--title-text-color);
+}
+.hero-button{
+    font-weight: 700;
+font-size: 16px;
+line-height: 1,88;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--title-text-color);
+background-color: #2196F3;
+}
+
+/*--------END HERO------------*/
+
+/*--------START FEATURES-------*/
+.features-subtitle{
+font-weight: 700;
+font-size: 14px;
+line-height: 1,50;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--secondary-text-color);
+}
+.features-text{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1,72;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+/*--------END FEATURES-------*/
+
+/*------START WHAT WE DO----------*/
+
+.examples-titles{
+font-weight: 700;
+font-size: 36px;
+line-height: 1,17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+
+/*------END WHAT WE DO----------*/
+
+/*------START OUR TEAM----------*/
+
+.team-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1,17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+.teammate-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1,19;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+.teammate-position{
+font-weight: 400;
+font-size: 16px;
+line-height: 1,19px;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+/*------END OUR TEAM----------*/
+
+/*------STARt FOOTER---------*/
+.footer address{
+    background-color: var(--bg-color);
+    font-style: normal;
+}
+.address{
+font-weight: 400;
+font-size: 14px;
+line-height: 1,72;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+.footer-mail-link{
+font-weight: 400;
+font-size: 14px;
+line-height: 1,72;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel-link{
+font-weight: 400;
+font-size: 14px;
+line-height: 1,72;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
