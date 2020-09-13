@@ -1,1 +1,28 @@
 
+
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-color: #2F303A;
+    --white-text-color: #FFFFFF;
+
+}
+body {
+    font-family: var(--main-font);
+    font-style: normal;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+    /*-----H
+}
+.logo{
+color: blue;
+}
