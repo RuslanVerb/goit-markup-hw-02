@@ -50,7 +50,7 @@ color: var(--accent-color);
 
 .header-tel-link,
 .header-mail-link{
-    font-weight: 500;
+font-weight: 500;
 font-size: 14px;
 line-height: 1,15;
 letter-spacing: 0.02em;
@@ -67,7 +67,7 @@ color: var(--accent-color);
 
 /*--------START HERO----------*/
 .hero{
-    background-color: var(--bg-color);
+background-color: var(--bg-color);
 }
 .hero-title{
 font-weight: 900;
@@ -79,15 +79,16 @@ text-transform: uppercase;
 color: var(--title-text-color);
 }
 .hero-button{
-    font-weight: 700;
+font-weight: 700;
 font-size: 16px;
 line-height: 1,88;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--title-text-color);
-background-color: #2196F3;
+background-color:var(--accent-color);
 }
+
 
 /*--------END HERO------------*/
 
@@ -101,7 +102,7 @@ text-transform: uppercase;
 color: var(--secondary-text-color);
 }
 .features-text{
-    font-weight: 400;
+font-weight: 400;
 font-size: 14px;
 line-height: 1,72;
 letter-spacing: 0.03em;
@@ -152,8 +153,8 @@ color: var(--primary-text-color);
 
 /*------STARt FOOTER---------*/
 .footer address{
-    background-color: var(--bg-color);
-    font-style: normal;
+background-color: var(--bg-color);
+font-style: normal;
 }
 .address{
 font-weight: 400;
