@@ -176,3 +176,36 @@ line-height: 1,72;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
+
+/*------END FOOTER---------*/
+
+/*------START PORTFOLIO---------*/
+
+.portfolio-filter-btn{
+font-weight: 500;
+font-size: 16px;
+line-height: 1,625;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus{
+color: var(--title-text-color);
+background-color: var(--accent-color);
+}
+.portfolio-list-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--secondary-text-color);
+}
+.portfolio-list-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1,875;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+/*------END PORTFOLIO---------*/
